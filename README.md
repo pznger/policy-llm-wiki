@@ -99,7 +99,6 @@ policy-llm-wiki/
 ├── 📄 常用提示词汇总.md      # 常用任务短指令（可复制）
 ├── 🤖 AGENTS.md / CLAUDE.md # Agent 工作守则
 ├── 📘 llm-wiki-instruction.simple.zh-CN.md
-└── 🖼️ docs/images/          # README 效果展示截图（见 docs/images/README.md）
 ```
 
 ---
