@@ -10,8 +10,8 @@ RAW_DIR = PROJECT_ROOT / "raw-0"
 RAW_DIR.mkdir(exist_ok=True, parents=True)
 
 # 多模态 LLM (OpenAI 兼容)
-LLM_BASE_URL = "https://v2.llm.api.felizai.cn/v1"
-LLM_API_KEY = "sk-tmGVKKze4krQQJ2yd4xhMe8SA23uFj5wfcr8Z1TYHHcZ7X3W"
+LLM_BASE_URL = "https:"
+LLM_API_KEY = "sk-"
 
 # 默认多模态模型；必须支持 image_url 输入。
 # 可选示例：qwen-vl-plus / qwen-vl-max / gemini-2.5-flash / gpt-4o
