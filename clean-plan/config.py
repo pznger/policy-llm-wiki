@@ -9,8 +9,8 @@ DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "clean"
 DEFAULT_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # 复用 ocr-plan 的同一套 OpenAI 兼容接口
-LLM_BASE_URL = "https://v2.llm.api.felizai.cn/v1"
-LLM_API_KEY = "sk-tmGVKKze4krQQJ2yd4xhMe8SA23uFj5wfcr8Z1TYHHcZ7X3W"
+LLM_BASE_URL = "https:"
+LLM_API_KEY = "sk-"
 
 # 清洗用的纯文本（非多模态）模型；按公司提供的实际模型名替换。
 # 常见可选：Qwen2.5-72B-Instruct / Qwen2.5-32B-Instruct / DeepSeek-V3 / GLM-4-Plus 等
