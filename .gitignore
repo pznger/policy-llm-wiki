@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.codex/
+.cursor/
+.vscode/
+.DS_Store
+.idea/
+
+# 流水线运行产物
+clean/_clean.log
+raw-0/_extract_report.md
+clean/_clean_report.md
+
+# 大体积的原始资料 / 中间产物（按需开启）
+# data/
+# raw-0/
+# clean/
+
+# 本地敏感信息
+api-key.txt

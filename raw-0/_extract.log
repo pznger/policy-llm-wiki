@@ -1,0 +1,809 @@
+2026-05-26 10:42:42 | INFO    | 日志文件：F:\FelizAI\policy-llm-wiki\raw-0\_extract.log
+2026-05-26 10:42:42 | INFO    | ============================================================
+2026-05-26 10:42:42 | INFO    | 开始运行 | 共 16 个文件 | 输出目录：F:\FelizAI\policy-llm-wiki\raw-0
+2026-05-26 10:42:42 | INFO    | 参数: force_tier=None, no_vlm=False, overwrite=False, log_level=INFO
+2026-05-26 10:42:42 | INFO    | ============================================================
+2026-05-26 10:42:42 | INFO    | ------------------------------------------------------------
+2026-05-26 10:42:42 | INFO    | [1/16] 处理：中华人民共和国医疗器械管理法(征询意见稿).pdf  (.pdf)
+2026-05-26 10:42:42 | INFO    | [PDF] 开始 中华人民共和国医疗器械管理法(征询意见稿).pdf | 共 69 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 10:42:42 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p1/69 -> pdfplumber | chars=437 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:42 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p2/69 -> pdfplumber | chars=513 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:42 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p3/69 -> pdfplumber | chars=533 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:43 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p4/69 -> pdfplumber | chars=510 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:43 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p5/69 -> pdfplumber | chars=527 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:43 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p6/69 -> pdfplumber | chars=471 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:43 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p7/69 -> pdfplumber | chars=541 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:43 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p8/69 -> pdfplumber | chars=534 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:43 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p9/69 -> pdfplumber | chars=477 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:50 | DEBUG   | [VLM] is_table 中华人民共和国医疗器械管理法(征询意见稿)_p10_cand1.png -> 'no'
+2026-05-26 10:42:50 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(77,450,516,539)
+2026-05-26 10:42:50 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p10/69 -> pdfplumber | chars=530 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:55 | DEBUG   | [VLM] is_table 中华人民共和国医疗器械管理法(征询意见稿)_p11_cand1.png -> 'no'
+2026-05-26 10:42:55 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(77,480,516,539)
+2026-05-26 10:42:55 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p11/69 -> pdfplumber | chars=504 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:55 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p12/69 -> pdfplumber | chars=513 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:55 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p13/69 -> pdfplumber | chars=580 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:55 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p14/69 -> pdfplumber | chars=506 tables=0 images=0 vlm_calls=0
+2026-05-26 10:42:55 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p15/69 -> pdfplumber | chars=522 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:00 | DEBUG   | [VLM] is_table 中华人民共和国医疗器械管理法(征询意见稿)_p16_cand1.png -> 'no'
+2026-05-26 10:43:00 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(77,96,516,185)
+2026-05-26 10:43:00 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p16/69 -> pdfplumber | chars=538 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:00 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p17/69 -> pdfplumber | chars=512 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:00 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p18/69 -> pdfplumber | chars=578 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:01 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p19/69 -> pdfplumber | chars=407 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:01 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p20/69 -> pdfplumber | chars=563 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:01 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p21/69 -> pdfplumber | chars=527 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:01 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p22/69 -> pdfplumber | chars=537 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:01 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p23/69 -> pdfplumber | chars=509 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:01 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p24/69 -> pdfplumber | chars=555 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:01 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p25/69 -> pdfplumber | chars=552 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:01 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p26/69 -> pdfplumber | chars=554 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:01 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p27/69 -> pdfplumber | chars=558 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:01 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p28/69 -> pdfplumber | chars=467 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:01 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p29/69 -> pdfplumber | chars=471 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:01 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p30/69 -> pdfplumber | chars=517 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:02 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p31/69 -> pdfplumber | chars=478 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:02 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p32/69 -> pdfplumber | chars=532 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:02 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p33/69 -> pdfplumber | chars=555 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:02 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p34/69 -> pdfplumber | chars=496 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:02 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p35/69 -> pdfplumber | chars=527 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:02 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p36/69 -> pdfplumber | chars=542 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:02 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p37/69 -> pdfplumber | chars=584 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:02 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p38/69 -> pdfplumber | chars=543 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:02 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p39/69 -> pdfplumber | chars=513 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:02 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p40/69 -> pdfplumber | chars=499 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:02 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p41/69 -> pdfplumber | chars=455 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:03 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p42/69 -> pdfplumber | chars=562 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:03 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p43/69 -> pdfplumber | chars=498 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:03 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p44/69 -> pdfplumber | chars=561 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:03 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p45/69 -> pdfplumber | chars=499 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:03 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p46/69 -> pdfplumber | chars=524 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:08 | DEBUG   | [VLM] is_table 中华人民共和国医疗器械管理法(征询意见稿)_p47_cand1.png -> 'no'
+2026-05-26 10:43:08 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(77,509,516,598)
+2026-05-26 10:43:08 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p47/69 -> pdfplumber | chars=550 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:08 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p48/69 -> pdfplumber | chars=508 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:08 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p49/69 -> pdfplumber | chars=514 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:08 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p50/69 -> pdfplumber | chars=523 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:08 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p51/69 -> pdfplumber | chars=536 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:09 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p52/69 -> pdfplumber | chars=568 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:09 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p53/69 -> pdfplumber | chars=627 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:09 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p54/69 -> pdfplumber | chars=622 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:09 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p55/69 -> pdfplumber | chars=603 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:09 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p56/69 -> pdfplumber | chars=508 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:09 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p57/69 -> pdfplumber | chars=502 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:09 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p58/69 -> pdfplumber | chars=578 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:09 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p59/69 -> pdfplumber | chars=558 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:09 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p60/69 -> pdfplumber | chars=638 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:09 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p61/69 -> pdfplumber | chars=538 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:10 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p62/69 -> pdfplumber | chars=592 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:10 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p63/69 -> pdfplumber | chars=546 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:10 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p64/69 -> pdfplumber | chars=528 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:10 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p65/69 -> pdfplumber | chars=516 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:10 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p66/69 -> pdfplumber | chars=503 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:10 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p67/69 -> pdfplumber | chars=591 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:10 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p68/69 -> pdfplumber | chars=438 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:10 | INFO    | [PDF] 中华人民共和国医疗器械管理法(征询意见稿).pdf p69/69 -> pdfplumber | chars=424 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:10 | SUCCESS | [PDF] 完成 中华人民共和国医疗器械管理法(征询意见稿).pdf | 69 页 | pdfplumber=69 | 表格=0 图片=0 VLM调用=0(成功4/失败0) 耗时=28.1s
+2026-05-26 10:43:10 | SUCCESS | 输出：中华人民共和国医疗器械管理法(征询意见稿).pdf -> 中华人民共和国医疗器械管理法(征询意见稿).md (40224 chars, 28.3s)
+2026-05-26 10:43:10 | INFO    | ------------------------------------------------------------
+2026-05-26 10:43:10 | INFO    | [2/16] 处理：医疗器械不良事件监测和再评价管理办法.pdf  (.pdf)
+2026-05-26 10:43:10 | INFO    | [PDF] 开始 医疗器械不良事件监测和再评价管理办法.pdf | 共 32 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 10:43:18 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p1_cand1.png -> 'no'
+2026-05-26 10:43:18 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:43:18 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p1/32 -> pdfplumber | chars=413 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:24 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p2_cand1.png -> 'no'
+2026-05-26 10:43:24 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:43:24 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p2/32 -> pdfplumber | chars=509 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:28 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p3_cand1.png -> 'no'
+2026-05-26 10:43:28 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,634)
+2026-05-26 10:43:28 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p3/32 -> pdfplumber | chars=421 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:35 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p4_cand1.png -> 'no'
+2026-05-26 10:43:35 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,634)
+2026-05-26 10:43:35 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p4/32 -> pdfplumber | chars=383 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:41 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p5_cand1.png -> 'no'
+2026-05-26 10:43:41 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:43:41 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p5/32 -> pdfplumber | chars=510 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:48 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p6_cand1.png -> 'no'
+2026-05-26 10:43:48 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:43:48 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p6/32 -> pdfplumber | chars=451 tables=0 images=0 vlm_calls=0
+2026-05-26 10:43:56 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p7_cand1.png -> 'no'
+2026-05-26 10:43:56 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:43:56 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p7/32 -> pdfplumber | chars=426 tables=0 images=0 vlm_calls=0
+2026-05-26 10:44:02 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p8_cand1.png -> 'no'
+2026-05-26 10:44:02 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:44:02 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p8/32 -> pdfplumber | chars=396 tables=0 images=0 vlm_calls=0
+2026-05-26 10:44:07 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p9_cand1.png -> 'no'
+2026-05-26 10:44:07 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:44:07 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p9/32 -> pdfplumber | chars=532 tables=0 images=0 vlm_calls=0
+2026-05-26 10:44:12 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p10_cand1.png -> 'no'
+2026-05-26 10:44:12 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:44:12 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p10/32 -> pdfplumber | chars=478 tables=0 images=0 vlm_calls=0
+2026-05-26 10:44:17 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p11_cand1.png -> 'no'
+2026-05-26 10:44:17 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:44:17 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p11/32 -> pdfplumber | chars=484 tables=0 images=0 vlm_calls=0
+2026-05-26 10:44:24 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p12_cand1.png -> 'no'
+2026-05-26 10:44:24 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:44:24 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p12/32 -> pdfplumber | chars=521 tables=0 images=0 vlm_calls=0
+2026-05-26 10:44:30 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p13_cand1.png -> 'no'
+2026-05-26 10:44:30 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:44:30 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p13/32 -> pdfplumber | chars=462 tables=0 images=0 vlm_calls=0
+2026-05-26 10:44:36 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p14_cand1.png -> 'no'
+2026-05-26 10:44:36 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:44:36 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p14/32 -> pdfplumber | chars=553 tables=0 images=0 vlm_calls=0
+2026-05-26 10:44:41 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p15_cand1.png -> 'no'
+2026-05-26 10:44:41 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:44:41 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p15/32 -> pdfplumber | chars=498 tables=0 images=0 vlm_calls=0
+2026-05-26 10:44:47 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p16_cand1.png -> 'no'
+2026-05-26 10:44:47 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:44:47 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p16/32 -> pdfplumber | chars=489 tables=0 images=0 vlm_calls=0
+2026-05-26 10:44:55 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p17_cand1.png -> 'no'
+2026-05-26 10:44:55 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,634)
+2026-05-26 10:44:55 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p17/32 -> pdfplumber | chars=382 tables=0 images=0 vlm_calls=0
+2026-05-26 10:45:00 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p18_cand1.png -> 'no'
+2026-05-26 10:45:00 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:45:00 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p18/32 -> pdfplumber | chars=512 tables=0 images=0 vlm_calls=0
+2026-05-26 10:45:04 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p19_cand1.png -> 'no'
+2026-05-26 10:45:04 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:45:04 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p19/32 -> pdfplumber | chars=377 tables=0 images=0 vlm_calls=0
+2026-05-26 10:45:09 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p20_cand1.png -> 'no'
+2026-05-26 10:45:09 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:45:09 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p20/32 -> pdfplumber | chars=449 tables=0 images=0 vlm_calls=0
+2026-05-26 10:45:14 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p21_cand1.png -> 'no'
+2026-05-26 10:45:14 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:45:14 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p21/32 -> pdfplumber | chars=504 tables=0 images=0 vlm_calls=0
+2026-05-26 10:45:19 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p22_cand1.png -> 'no'
+2026-05-26 10:45:19 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:45:19 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p22/32 -> pdfplumber | chars=402 tables=0 images=0 vlm_calls=0
+2026-05-26 10:45:26 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p23_cand1.png -> 'no'
+2026-05-26 10:45:26 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:45:26 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p23/32 -> pdfplumber | chars=486 tables=0 images=0 vlm_calls=0
+2026-05-26 10:45:30 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p24_cand1.png -> 'no'
+2026-05-26 10:45:30 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:45:30 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p24/32 -> pdfplumber | chars=512 tables=0 images=0 vlm_calls=0
+2026-05-26 10:45:34 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p25_cand1.png -> 'no'
+2026-05-26 10:45:34 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:45:34 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p25/32 -> pdfplumber | chars=412 tables=0 images=0 vlm_calls=0
+2026-05-26 10:45:38 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p26_cand1.png -> 'no'
+2026-05-26 10:45:38 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:45:38 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p26/32 -> pdfplumber | chars=467 tables=0 images=0 vlm_calls=0
+2026-05-26 10:45:42 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p27_cand1.png -> 'no'
+2026-05-26 10:45:42 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:45:42 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p27/32 -> pdfplumber | chars=394 tables=0 images=0 vlm_calls=0
+2026-05-26 10:45:47 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p28_cand1.png -> 'no'
+2026-05-26 10:45:47 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:45:47 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p28/32 -> pdfplumber | chars=524 tables=0 images=0 vlm_calls=0
+2026-05-26 10:45:52 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p29_cand1.png -> 'no'
+2026-05-26 10:45:52 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:45:52 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p29/32 -> pdfplumber | chars=376 tables=0 images=0 vlm_calls=0
+2026-05-26 10:45:57 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p30_cand1.png -> 'no'
+2026-05-26 10:45:57 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:45:57 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p30/32 -> pdfplumber | chars=443 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:01 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p31_cand1.png -> 'no'
+2026-05-26 10:46:01 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:46:01 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p31/32 -> pdfplumber | chars=420 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:06 | DEBUG   | [VLM] is_table 医疗器械不良事件监测和再评价管理办法_p32_cand1.png -> 'no'
+2026-05-26 10:46:06 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,256)
+2026-05-26 10:46:06 | INFO    | [PDF] 医疗器械不良事件监测和再评价管理办法.pdf p32/32 -> pdfplumber | chars=148 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:06 | SUCCESS | [PDF] 完成 医疗器械不良事件监测和再评价管理办法.pdf | 32 页 | pdfplumber=32 | 表格=0 图片=0 VLM调用=0(成功32/失败0) 耗时=175.6s
+2026-05-26 10:46:06 | SUCCESS | 输出：医疗器械不良事件监测和再评价管理办法.pdf -> 医疗器械不良事件监测和再评价管理办法.md (16034 chars, 175.7s)
+2026-05-26 10:46:06 | INFO    | ------------------------------------------------------------
+2026-05-26 10:46:06 | INFO    | [3/16] 处理：医疗器械临床试验质量管理规范.pdf  (.pdf)
+2026-05-26 10:46:06 | INFO    | [PDF] 开始 医疗器械临床试验质量管理规范.pdf | 共 25 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 10:46:06 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p1/25 -> pdfplumber | chars=430 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:06 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p2/25 -> pdfplumber | chars=461 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:06 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p3/25 -> pdfplumber | chars=392 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:06 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p4/25 -> pdfplumber | chars=417 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:06 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p5/25 -> pdfplumber | chars=430 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:06 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p6/25 -> pdfplumber | chars=501 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:07 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p7/25 -> pdfplumber | chars=502 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:07 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p8/25 -> pdfplumber | chars=450 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:07 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p9/25 -> pdfplumber | chars=527 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:07 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p10/25 -> pdfplumber | chars=490 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:07 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p11/25 -> pdfplumber | chars=485 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:07 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p12/25 -> pdfplumber | chars=470 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:07 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p13/25 -> pdfplumber | chars=553 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:07 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p14/25 -> pdfplumber | chars=449 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:07 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p15/25 -> pdfplumber | chars=608 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:07 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p16/25 -> pdfplumber | chars=551 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:07 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p17/25 -> pdfplumber | chars=509 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:07 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p18/25 -> pdfplumber | chars=466 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:07 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p19/25 -> pdfplumber | chars=499 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:08 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p20/25 -> pdfplumber | chars=563 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:08 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p21/25 -> pdfplumber | chars=438 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:08 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p22/25 -> pdfplumber | chars=543 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:08 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p23/25 -> pdfplumber | chars=493 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:08 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p24/25 -> pdfplumber | chars=470 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:08 | INFO    | [PDF] 医疗器械临床试验质量管理规范.pdf p25/25 -> pdfplumber | chars=53 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:08 | SUCCESS | [PDF] 完成 医疗器械临床试验质量管理规范.pdf | 25 页 | pdfplumber=25 | 表格=0 图片=0 VLM调用=0(成功0/失败0) 耗时=1.9s
+2026-05-26 10:46:08 | SUCCESS | 输出：医疗器械临床试验质量管理规范.pdf -> 医疗器械临床试验质量管理规范.md (13077 chars, 2.0s)
+2026-05-26 10:46:08 | INFO    | ------------------------------------------------------------
+2026-05-26 10:46:08 | INFO    | [4/16] 处理：医疗器械使用质量监督管理办法.pdf  (.pdf)
+2026-05-26 10:46:08 | INFO    | [PDF] 开始 医疗器械使用质量监督管理办法.pdf | 共 12 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 10:46:18 | DEBUG   | [VLM] is_table 医疗器械使用质量监督管理办法_p1_cand1.png -> 'no'
+2026-05-26 10:46:18 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:46:18 | INFO    | [PDF] 医疗器械使用质量监督管理办法.pdf p1/12 -> pdfplumber | chars=392 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:23 | DEBUG   | [VLM] is_table 医疗器械使用质量监督管理办法_p2_cand1.png -> 'no'
+2026-05-26 10:46:23 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:46:23 | INFO    | [PDF] 医疗器械使用质量监督管理办法.pdf p2/12 -> pdfplumber | chars=417 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:27 | DEBUG   | [VLM] is_table 医疗器械使用质量监督管理办法_p3_cand1.png -> 'no'
+2026-05-26 10:46:27 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:46:27 | INFO    | [PDF] 医疗器械使用质量监督管理办法.pdf p3/12 -> pdfplumber | chars=529 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:31 | DEBUG   | [VLM] is_table 医疗器械使用质量监督管理办法_p4_cand1.png -> 'no'
+2026-05-26 10:46:31 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:46:31 | INFO    | [PDF] 医疗器械使用质量监督管理办法.pdf p4/12 -> pdfplumber | chars=450 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:35 | DEBUG   | [VLM] is_table 医疗器械使用质量监督管理办法_p5_cand1.png -> 'no'
+2026-05-26 10:46:35 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,634)
+2026-05-26 10:46:35 | INFO    | [PDF] 医疗器械使用质量监督管理办法.pdf p5/12 -> pdfplumber | chars=468 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:40 | DEBUG   | [VLM] is_table 医疗器械使用质量监督管理办法_p6_cand1.png -> 'no'
+2026-05-26 10:46:40 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:46:40 | INFO    | [PDF] 医疗器械使用质量监督管理办法.pdf p6/12 -> pdfplumber | chars=470 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:44 | DEBUG   | [VLM] is_table 医疗器械使用质量监督管理办法_p7_cand1.png -> 'no'
+2026-05-26 10:46:44 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,634)
+2026-05-26 10:46:44 | INFO    | [PDF] 医疗器械使用质量监督管理办法.pdf p7/12 -> pdfplumber | chars=374 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:48 | DEBUG   | [VLM] is_table 医疗器械使用质量监督管理办法_p8_cand1.png -> 'no'
+2026-05-26 10:46:48 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:46:48 | INFO    | [PDF] 医疗器械使用质量监督管理办法.pdf p8/12 -> pdfplumber | chars=466 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:51 | DEBUG   | [VLM] is_table 医疗器械使用质量监督管理办法_p9_cand1.png -> 'no'
+2026-05-26 10:46:51 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:46:51 | INFO    | [PDF] 医疗器械使用质量监督管理办法.pdf p9/12 -> pdfplumber | chars=391 tables=0 images=0 vlm_calls=0
+2026-05-26 10:46:57 | DEBUG   | [VLM] is_table 医疗器械使用质量监督管理办法_p10_cand1.png -> 'no'
+2026-05-26 10:46:57 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:46:57 | INFO    | [PDF] 医疗器械使用质量监督管理办法.pdf p10/12 -> pdfplumber | chars=453 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:01 | DEBUG   | [VLM] is_table 医疗器械使用质量监督管理办法_p11_cand1.png -> 'no'
+2026-05-26 10:47:01 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:47:01 | INFO    | [PDF] 医疗器械使用质量监督管理办法.pdf p11/12 -> pdfplumber | chars=488 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:06 | DEBUG   | [VLM] is_table 医疗器械使用质量监督管理办法_p12_cand1.png -> 'no'
+2026-05-26 10:47:06 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,319)
+2026-05-26 10:47:06 | INFO    | [PDF] 医疗器械使用质量监督管理办法.pdf p12/12 -> pdfplumber | chars=170 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:06 | SUCCESS | [PDF] 完成 医疗器械使用质量监督管理办法.pdf | 12 页 | pdfplumber=12 | 表格=0 图片=0 VLM调用=0(成功12/失败0) 耗时=58.1s
+2026-05-26 10:47:06 | SUCCESS | 输出：医疗器械使用质量监督管理办法.pdf -> 医疗器械使用质量监督管理办法.md (5722 chars, 58.2s)
+2026-05-26 10:47:06 | INFO    | ------------------------------------------------------------
+2026-05-26 10:47:06 | INFO    | [5/16] 处理：医疗器械委托生产质量协议编制指南.pdf  (.pdf)
+2026-05-26 10:47:06 | INFO    | [PDF] 开始 医疗器械委托生产质量协议编制指南.pdf | 共 24 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 10:47:06 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p1/24 -> pdfplumber | chars=511 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:06 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p2/24 -> pdfplumber | chars=502 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:06 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p3/24 -> pdfplumber | chars=520 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:07 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p4/24 -> pdfplumber | chars=506 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:07 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p5/24 -> pdfplumber | chars=530 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:07 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p6/24 -> pdfplumber | chars=547 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:07 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p7/24 -> pdfplumber | chars=516 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:07 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p8/24 -> pdfplumber | chars=530 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:07 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p9/24 -> pdfplumber | chars=476 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:07 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p10/24 -> pdfplumber | chars=457 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:07 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p11/24 -> pdfplumber | chars=502 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:07 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p12/24 -> pdfplumber | chars=497 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:07 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p13/24 -> pdfplumber | chars=474 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:07 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p14/24 -> pdfplumber | chars=103 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:07 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p15/24 -> pdfplumber | chars=437 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:08 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p16/24 -> pdfplumber | chars=493 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:08 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p17/24 -> pdfplumber | chars=478 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:08 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p18/24 -> pdfplumber | chars=450 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:08 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p19/24 -> pdfplumber | chars=522 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:08 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p20/24 -> pdfplumber | chars=513 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:08 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p21/24 -> pdfplumber | chars=526 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:08 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p22/24 -> pdfplumber | chars=521 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:08 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p23/24 -> pdfplumber | chars=543 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:08 | INFO    | [PDF] 医疗器械委托生产质量协议编制指南.pdf p24/24 -> pdfplumber | chars=156 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:08 | SUCCESS | [PDF] 完成 医疗器械委托生产质量协议编制指南.pdf | 24 页 | pdfplumber=24 | 表格=0 图片=0 VLM调用=0(成功0/失败0) 耗时=2.0s
+2026-05-26 10:47:08 | SUCCESS | 输出：医疗器械委托生产质量协议编制指南.pdf -> 医疗器械委托生产质量协议编制指南.md (12311 chars, 2.1s)
+2026-05-26 10:47:08 | INFO    | ------------------------------------------------------------
+2026-05-26 10:47:08 | INFO    | [6/16] 处理：医疗器械定期风险评价报告撰写规范.pdf  (.pdf)
+2026-05-26 10:47:08 | INFO    | [PDF] 开始 医疗器械定期风险评价报告撰写规范.pdf | 共 13 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 10:47:08 | INFO    | [PDF] 医疗器械定期风险评价报告撰写规范.pdf p1/13 -> pdfplumber | chars=439 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:08 | INFO    | [PDF] 医疗器械定期风险评价报告撰写规范.pdf p2/13 -> pdfplumber | chars=551 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:08 | INFO    | [PDF] 医疗器械定期风险评价报告撰写规范.pdf p3/13 -> pdfplumber | chars=518 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:09 | INFO    | [PDF] 医疗器械定期风险评价报告撰写规范.pdf p4/13 -> pdfplumber | chars=525 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:09 | INFO    | [PDF] 医疗器械定期风险评价报告撰写规范.pdf p5/13 -> pdfplumber | chars=457 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:09 | INFO    | [PDF] 医疗器械定期风险评价报告撰写规范.pdf p6/13 -> pdfplumber | chars=492 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:09 | INFO    | [PDF] 医疗器械定期风险评价报告撰写规范.pdf p7/13 -> pdfplumber | chars=398 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:09 | INFO    | [PDF] 医疗器械定期风险评价报告撰写规范.pdf p8/13 -> pdfplumber | chars=46 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:16 | DEBUG   | [VLM] is_table 医疗器械定期风险评价报告撰写规范_p9_cand1.png -> 'no'
+2026-05-26 10:47:16 | DEBUG   | [Table] 丢弃 mode=loose reason=cols<2 vlm=False bbox=(77,613,518,692)
+2026-05-26 10:47:16 | INFO    | [PDF] 医疗器械定期风险评价报告撰写规范.pdf p9/13 -> pdfplumber | chars=343 tables=0 images=0 vlm_calls=0
+2026-05-26 10:47:16 | DEBUG   | [Table] 接受 mode=strict bbox=(85,209,511,659) rows=27 cols=2 score=0.78
+2026-05-26 10:47:48 | DEBUG   | [VLM] OK 医疗器械定期风险评价报告撰写规范_p10_table1.png -> 1760 字
+2026-05-26 10:47:48 | INFO    | [PDF] 医疗器械定期风险评价报告撰写规范.pdf p10/13 -> pdfplumber | chars=137 tables=1 images=1 vlm_calls=1
+2026-05-26 10:47:53 | DEBUG   | [VLM] is_table 医疗器械定期风险评价报告撰写规范_p11_cand1.png -> 'yes'
+2026-05-26 10:47:53 | INFO    | [Table] VLM 挽救：mode=strict reason=filled_ratio=0.21<0.5 -> 接受
+2026-05-26 10:48:05 | DEBUG   | [VLM] OK 医疗器械定期风险评价报告撰写规范_p11_table1.png -> 838 字
+2026-05-26 10:48:05 | INFO    | [PDF] 医疗器械定期风险评价报告撰写规范.pdf p11/13 -> pdfplumber | chars=137 tables=1 images=1 vlm_calls=1
+2026-05-26 10:48:09 | DEBUG   | [VLM] is_table 医疗器械定期风险评价报告撰写规范_p12_cand1.png -> 'yes'
+2026-05-26 10:48:09 | INFO    | [Table] VLM 挽救：mode=strict reason=filled_ratio=0.15<0.5 -> 接受
+2026-05-26 10:48:34 | DEBUG   | [VLM] OK 医疗器械定期风险评价报告撰写规范_p12_table1.png -> 2568 字
+2026-05-26 10:48:34 | INFO    | [PDF] 医疗器械定期风险评价报告撰写规范.pdf p12/13 -> pdfplumber | chars=338 tables=1 images=1 vlm_calls=1
+2026-05-26 10:48:38 | DEBUG   | [VLM] is_table 医疗器械定期风险评价报告撰写规范_p13_cand1.png -> 'yes'
+2026-05-26 10:48:38 | INFO    | [Table] VLM 挽救：mode=strict reason=filled_ratio=0.33<0.5 -> 接受
+2026-05-26 10:48:51 | DEBUG   | [VLM] OK 医疗器械定期风险评价报告撰写规范_p13_table1.png -> 798 字
+2026-05-26 10:48:51 | INFO    | [PDF] 医疗器械定期风险评价报告撰写规范.pdf p13/13 -> pdfplumber | chars=139 tables=1 images=1 vlm_calls=1
+2026-05-26 10:48:51 | SUCCESS | [PDF] 完成 医疗器械定期风险评价报告撰写规范.pdf | 13 页 | pdfplumber=13 | 表格=4 图片=4 VLM调用=4(成功8/失败0) 耗时=103.0s
+2026-05-26 10:48:51 | SUCCESS | 输出：医疗器械定期风险评价报告撰写规范.pdf -> 医疗器械定期风险评价报告撰写规范.md (11196 chars, 103.0s)
+2026-05-26 10:48:51 | INFO    | ------------------------------------------------------------
+2026-05-26 10:48:51 | INFO    | [7/16] 处理：医疗器械注册与备案管理办法.pdf  (.pdf)
+2026-05-26 10:48:51 | INFO    | [PDF] 开始 医疗器械注册与备案管理办法.pdf | 共 39 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 10:49:00 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p1_cand1.png -> 'no'
+2026-05-26 10:49:00 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:49:00 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p1/39 -> pdfplumber | chars=401 tables=0 images=0 vlm_calls=0
+2026-05-26 10:49:04 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p2_cand1.png -> 'no'
+2026-05-26 10:49:04 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:49:04 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p2/39 -> pdfplumber | chars=529 tables=0 images=0 vlm_calls=0
+2026-05-26 10:49:08 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p3_cand1.png -> 'no'
+2026-05-26 10:49:08 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:49:08 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p3/39 -> pdfplumber | chars=425 tables=0 images=0 vlm_calls=0
+2026-05-26 10:49:12 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p4_cand1.png -> 'no'
+2026-05-26 10:49:12 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:49:12 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p4/39 -> pdfplumber | chars=435 tables=0 images=0 vlm_calls=0
+2026-05-26 10:49:18 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p5_cand1.png -> 'no'
+2026-05-26 10:49:18 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:49:18 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p5/39 -> pdfplumber | chars=445 tables=0 images=0 vlm_calls=0
+2026-05-26 10:49:22 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p6_cand1.png -> 'no'
+2026-05-26 10:49:22 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:49:22 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p6/39 -> pdfplumber | chars=448 tables=0 images=0 vlm_calls=0
+2026-05-26 10:49:25 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p7_cand1.png -> 'no'
+2026-05-26 10:49:25 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:49:25 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p7/39 -> pdfplumber | chars=451 tables=0 images=0 vlm_calls=0
+2026-05-26 10:49:29 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p8_cand1.png -> 'no'
+2026-05-26 10:49:29 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:49:29 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p8/39 -> pdfplumber | chars=405 tables=0 images=0 vlm_calls=0
+2026-05-26 10:49:33 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p9_cand1.png -> 'no'
+2026-05-26 10:49:33 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:49:33 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p9/39 -> pdfplumber | chars=469 tables=0 images=0 vlm_calls=0
+2026-05-26 10:49:40 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p10_cand1.png -> 'no'
+2026-05-26 10:49:40 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:49:40 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p10/39 -> pdfplumber | chars=404 tables=0 images=0 vlm_calls=0
+2026-05-26 10:49:45 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p11_cand1.png -> 'no'
+2026-05-26 10:49:45 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:49:45 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p11/39 -> pdfplumber | chars=509 tables=0 images=0 vlm_calls=0
+2026-05-26 10:49:48 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p12_cand1.png -> 'no'
+2026-05-26 10:49:48 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:49:48 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p12/39 -> pdfplumber | chars=460 tables=0 images=0 vlm_calls=0
+2026-05-26 10:49:53 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p13_cand1.png -> 'no'
+2026-05-26 10:49:53 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:49:53 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p13/39 -> pdfplumber | chars=519 tables=0 images=0 vlm_calls=0
+2026-05-26 10:49:57 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p14_cand1.png -> 'no'
+2026-05-26 10:49:57 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:49:57 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p14/39 -> pdfplumber | chars=426 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:01 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p15_cand1.png -> 'no'
+2026-05-26 10:50:01 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,634)
+2026-05-26 10:50:01 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p15/39 -> pdfplumber | chars=409 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:05 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p16_cand1.png -> 'no'
+2026-05-26 10:50:05 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:50:05 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p16/39 -> pdfplumber | chars=427 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:09 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p17_cand1.png -> 'no'
+2026-05-26 10:50:09 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:50:09 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p17/39 -> pdfplumber | chars=387 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:13 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p18_cand1.png -> 'no'
+2026-05-26 10:50:13 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:50:13 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p18/39 -> pdfplumber | chars=497 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:18 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p19_cand1.png -> 'no'
+2026-05-26 10:50:18 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:50:18 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p19/39 -> pdfplumber | chars=510 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:24 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p20_cand1.png -> 'no'
+2026-05-26 10:50:24 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:50:24 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p20/39 -> pdfplumber | chars=447 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:30 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p21_cand1.png -> 'no'
+2026-05-26 10:50:30 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:50:30 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p21/39 -> pdfplumber | chars=505 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:34 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p22_cand1.png -> 'no'
+2026-05-26 10:50:34 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:50:34 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p22/39 -> pdfplumber | chars=400 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:39 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p23_cand1.png -> 'no'
+2026-05-26 10:50:39 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,634)
+2026-05-26 10:50:39 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p23/39 -> pdfplumber | chars=461 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:43 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p24_cand1.png -> 'no'
+2026-05-26 10:50:43 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:50:43 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p24/39 -> pdfplumber | chars=410 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:47 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p25_cand1.png -> 'no'
+2026-05-26 10:50:47 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:50:47 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p25/39 -> pdfplumber | chars=495 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:50 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p26_cand1.png -> 'no'
+2026-05-26 10:50:50 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:50:50 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p26/39 -> pdfplumber | chars=383 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:55 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p27_cand1.png -> 'no'
+2026-05-26 10:50:55 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,634)
+2026-05-26 10:50:55 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p27/39 -> pdfplumber | chars=430 tables=0 images=0 vlm_calls=0
+2026-05-26 10:50:59 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p28_cand1.png -> 'no'
+2026-05-26 10:50:59 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:50:59 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p28/39 -> pdfplumber | chars=418 tables=0 images=0 vlm_calls=0
+2026-05-26 10:51:03 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p29_cand1.png -> 'no'
+2026-05-26 10:51:03 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:51:03 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p29/39 -> pdfplumber | chars=420 tables=0 images=0 vlm_calls=0
+2026-05-26 10:51:08 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p30_cand1.png -> 'no'
+2026-05-26 10:51:08 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:51:08 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p30/39 -> pdfplumber | chars=373 tables=0 images=0 vlm_calls=0
+2026-05-26 10:51:12 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p31_cand1.png -> 'no'
+2026-05-26 10:51:12 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:51:12 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p31/39 -> pdfplumber | chars=433 tables=0 images=0 vlm_calls=0
+2026-05-26 10:51:16 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p32_cand1.png -> 'no'
+2026-05-26 10:51:16 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:51:16 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p32/39 -> pdfplumber | chars=438 tables=0 images=0 vlm_calls=0
+2026-05-26 10:51:21 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p33_cand1.png -> 'no'
+2026-05-26 10:51:21 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:51:21 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p33/39 -> pdfplumber | chars=477 tables=0 images=0 vlm_calls=0
+2026-05-26 10:51:25 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p34_cand1.png -> 'no'
+2026-05-26 10:51:25 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:51:25 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p34/39 -> pdfplumber | chars=411 tables=0 images=0 vlm_calls=0
+2026-05-26 10:51:28 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p35_cand1.png -> 'no'
+2026-05-26 10:51:28 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:51:28 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p35/39 -> pdfplumber | chars=395 tables=0 images=0 vlm_calls=0
+2026-05-26 10:51:35 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p36_cand1.png -> 'no'
+2026-05-26 10:51:35 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:51:35 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p36/39 -> pdfplumber | chars=390 tables=0 images=0 vlm_calls=0
+2026-05-26 10:51:40 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p37_cand1.png -> 'no'
+2026-05-26 10:51:40 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:51:40 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p37/39 -> pdfplumber | chars=394 tables=0 images=0 vlm_calls=0
+2026-05-26 10:51:45 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p38_cand1.png -> 'no'
+2026-05-26 10:51:45 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 10:51:45 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p38/39 -> pdfplumber | chars=435 tables=0 images=0 vlm_calls=0
+2026-05-26 10:51:49 | DEBUG   | [VLM] is_table 医疗器械注册与备案管理办法_p39_cand1.png -> 'no'
+2026-05-26 10:51:49 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,193)
+2026-05-26 10:51:49 | INFO    | [PDF] 医疗器械注册与备案管理办法.pdf p39/39 -> pdfplumber | chars=122 tables=0 images=0 vlm_calls=0
+2026-05-26 10:51:49 | SUCCESS | [PDF] 完成 医疗器械注册与备案管理办法.pdf | 39 页 | pdfplumber=39 | 表格=0 图片=0 VLM调用=0(成功39/失败0) 耗时=177.5s
+2026-05-26 10:51:49 | SUCCESS | 输出：医疗器械注册与备案管理办法.pdf -> 医疗器械注册与备案管理办法.md (18994 chars, 177.5s)
+2026-05-26 10:51:49 | INFO    | ------------------------------------------------------------
+2026-05-26 10:51:49 | INFO    | [8/16] 处理：医疗器械注册人备案人开展不良事件监测工作检查要点.pdf  (.pdf)
+2026-05-26 10:51:49 | INFO    | [PDF] 开始 医疗器械注册人备案人开展不良事件监测工作检查要点.pdf | 共 5 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 10:51:57 | DEBUG   | [VLM] is_table 医疗器械注册人备案人开展不良事件监测工作检查要点_p1_cand1.png -> 'yes'
+2026-05-26 10:51:57 | INFO    | [Table] VLM 挽救：mode=strict reason=avg_cell_chars=145>80 -> 接受
+2026-05-26 10:52:14 | DEBUG   | [VLM] OK 医疗器械注册人备案人开展不良事件监测工作检查要点_p1_table1.png -> 2004 字
+2026-05-26 10:52:14 | INFO    | [PDF] 医疗器械注册人备案人开展不良事件监测工作检查要点.pdf p1/5 -> pdfplumber | chars=36 tables=1 images=1 vlm_calls=1
+2026-05-26 10:52:25 | DEBUG   | [VLM] is_table 医疗器械注册人备案人开展不良事件监测工作检查要点_p2_cand1.png -> 'yes'
+2026-05-26 10:52:25 | INFO    | [Table] VLM 挽救：mode=strict reason=avg_cell_chars=93>80 -> 接受
+2026-05-26 10:53:00 | DEBUG   | [VLM] OK 医疗器械注册人备案人开展不良事件监测工作检查要点_p2_table1.png -> 1775 字
+2026-05-26 10:53:00 | INFO    | [PDF] 医疗器械注册人备案人开展不良事件监测工作检查要点.pdf p2/5 -> pdfplumber | chars=7 tables=1 images=1 vlm_calls=1
+2026-05-26 10:53:04 | DEBUG   | [VLM] is_table 医疗器械注册人备案人开展不良事件监测工作检查要点_p3_cand1.png -> 'yes'
+2026-05-26 10:53:04 | INFO    | [Table] VLM 挽救：mode=strict reason=avg_cell_chars=134>80 -> 接受
+2026-05-26 10:53:25 | DEBUG   | [VLM] OK 医疗器械注册人备案人开展不良事件监测工作检查要点_p3_table1.png -> 1975 字
+2026-05-26 10:53:25 | INFO    | [PDF] 医疗器械注册人备案人开展不良事件监测工作检查要点.pdf p3/5 -> pdfplumber | chars=7 tables=1 images=1 vlm_calls=1
+2026-05-26 10:54:26 | DEBUG   | [VLM] is_table 医疗器械注册人备案人开展不良事件监测工作检查要点_p4_cand1.png -> 'yes'
+2026-05-26 10:54:26 | INFO    | [Table] VLM 挽救：mode=strict reason=avg_cell_chars=136>80 -> 接受
+2026-05-26 10:55:41 | DEBUG   | [VLM] OK 医疗器械注册人备案人开展不良事件监测工作检查要点_p4_table1.png -> 1964 字
+2026-05-26 10:55:41 | INFO    | [PDF] 医疗器械注册人备案人开展不良事件监测工作检查要点.pdf p4/5 -> pdfplumber | chars=7 tables=1 images=1 vlm_calls=1
+2026-05-26 10:55:53 | DEBUG   | [VLM] is_table 医疗器械注册人备案人开展不良事件监测工作检查要点_p5_cand1.png -> 'yes'
+2026-05-26 10:55:53 | INFO    | [Table] VLM 挽救：mode=strict reason=avg_cell_chars=118>80 -> 接受
+2026-05-26 10:56:18 | DEBUG   | [VLM] OK 医疗器械注册人备案人开展不良事件监测工作检查要点_p5_table1.png -> 2205 字
+2026-05-26 10:56:18 | INFO    | [PDF] 医疗器械注册人备案人开展不良事件监测工作检查要点.pdf p5/5 -> pdfplumber | chars=7 tables=1 images=1 vlm_calls=1
+2026-05-26 10:56:18 | SUCCESS | [PDF] 完成 医疗器械注册人备案人开展不良事件监测工作检查要点.pdf | 5 页 | pdfplumber=5 | 表格=5 图片=5 VLM调用=5(成功10/失败0) 耗时=269.2s
+2026-05-26 10:56:18 | SUCCESS | 输出：医疗器械注册人备案人开展不良事件监测工作检查要点.pdf -> 医疗器械注册人备案人开展不良事件监测工作检查要点.md (10192 chars, 269.3s)
+2026-05-26 10:56:18 | INFO    | ------------------------------------------------------------
+2026-05-26 10:56:18 | INFO    | [9/16] 处理：医疗器械注册人开展不良事件监测工作指南.pdf  (.pdf)
+2026-05-26 10:56:18 | INFO    | [PDF] 开始 医疗器械注册人开展不良事件监测工作指南.pdf | 共 32 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 10:56:18 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p1/32 -> pdfplumber | chars=31 tables=0 images=0 vlm_calls=0
+2026-05-26 10:56:19 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p2/32 -> pdfplumber | chars=2572 tables=0 images=0 vlm_calls=0
+2026-05-26 10:56:19 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p3/32 -> pdfplumber | chars=608 tables=0 images=0 vlm_calls=0
+2026-05-26 10:56:19 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p4/32 -> pdfplumber | chars=594 tables=0 images=0 vlm_calls=0
+2026-05-26 10:56:19 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p5/32 -> pdfplumber | chars=594 tables=0 images=0 vlm_calls=0
+2026-05-26 10:56:19 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p6/32 -> pdfplumber | chars=573 tables=0 images=0 vlm_calls=0
+2026-05-26 10:56:19 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p7/32 -> pdfplumber | chars=546 tables=0 images=0 vlm_calls=0
+2026-05-26 10:56:19 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p8/32 -> pdfplumber | chars=669 tables=0 images=0 vlm_calls=0
+2026-05-26 10:56:19 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p9/32 -> pdfplumber | chars=602 tables=0 images=0 vlm_calls=0
+2026-05-26 10:56:19 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p10/32 -> pdfplumber | chars=638 tables=0 images=0 vlm_calls=0
+2026-05-26 10:56:20 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p11/32 -> pdfplumber | chars=581 tables=0 images=0 vlm_calls=0
+2026-05-26 10:56:20 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p12/32 -> pdfplumber | chars=557 tables=0 images=0 vlm_calls=0
+2026-05-26 10:56:20 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p13/32 -> pdfplumber | chars=468 tables=0 images=0 vlm_calls=0
+2026-05-26 10:56:27 | DEBUG   | [VLM] OK 医疗器械注册人开展不良事件监测工作指南_p14_img1.png -> 153 字
+2026-05-26 10:56:36 | DEBUG   | [VLM] OK 医疗器械注册人开展不良事件监测工作指南_p14_img2.png -> 143 字
+2026-05-26 10:56:36 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p14/32 -> pdfplumber | chars=78 tables=0 images=2 vlm_calls=2
+2026-05-26 10:56:36 | DEBUG   | [Table] 接受 mode=strict bbox=(53,230,542,744) rows=37 cols=2 score=0.74
+2026-05-26 10:58:02 | DEBUG   | [VLM] OK 医疗器械注册人开展不良事件监测工作指南_p15_table1.png -> 2599 字
+2026-05-26 10:58:02 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p15/32 -> pdfplumber | chars=53 tables=1 images=1 vlm_calls=1
+2026-05-26 10:58:03 | DEBUG   | [Table] 接受 mode=strict bbox=(53,97,542,708) rows=41 cols=2 score=0.73
+2026-05-26 10:58:30 | DEBUG   | [VLM] OK 医疗器械注册人开展不良事件监测工作指南_p16_table1.png -> 2756 字
+2026-05-26 10:58:30 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p16/32 -> pdfplumber | chars=20 tables=1 images=1 vlm_calls=1
+2026-05-26 10:58:30 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p17/32 -> pdfplumber | chars=501 tables=0 images=0 vlm_calls=0
+2026-05-26 10:58:30 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p18/32 -> pdfplumber | chars=586 tables=0 images=0 vlm_calls=0
+2026-05-26 10:58:30 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p19/32 -> pdfplumber | chars=565 tables=0 images=0 vlm_calls=0
+2026-05-26 10:58:30 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p20/32 -> pdfplumber | chars=570 tables=0 images=0 vlm_calls=0
+2026-05-26 10:58:30 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p21/32 -> pdfplumber | chars=572 tables=0 images=0 vlm_calls=0
+2026-05-26 10:58:30 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p22/32 -> pdfplumber | chars=541 tables=0 images=0 vlm_calls=0
+2026-05-26 10:58:30 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p23/32 -> pdfplumber | chars=542 tables=0 images=0 vlm_calls=0
+2026-05-26 10:58:31 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p24/32 -> pdfplumber | chars=586 tables=0 images=0 vlm_calls=0
+2026-05-26 10:58:31 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p25/32 -> pdfplumber | chars=569 tables=0 images=0 vlm_calls=0
+2026-05-26 10:58:31 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p26/32 -> pdfplumber | chars=548 tables=0 images=0 vlm_calls=0
+2026-05-26 10:58:31 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p27/32 -> pdfplumber | chars=481 tables=0 images=0 vlm_calls=0
+2026-05-26 10:58:34 | DEBUG   | [VLM] is_table 医疗器械注册人开展不良事件监测工作指南_p28_cand1.png -> 'yes'
+2026-05-26 10:58:34 | INFO    | [Table] VLM 挽救：mode=strict reason=cols<2 -> 接受
+2026-05-26 10:59:42 | DEBUG   | [VLM] OK 医疗器械注册人开展不良事件监测工作指南_p28_table1.png -> 1538 字
+2026-05-26 10:59:42 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p28/32 -> pdfplumber | chars=55 tables=1 images=1 vlm_calls=1
+2026-05-26 10:59:43 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p29/32 -> pdfplumber | chars=543 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:43 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p30/32 -> pdfplumber | chars=589 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:43 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p31/32 -> pdfplumber | chars=616 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:43 | INFO    | [PDF] 医疗器械注册人开展不良事件监测工作指南.pdf p32/32 -> pdfplumber | chars=262 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:43 | SUCCESS | [PDF] 完成 医疗器械注册人开展不良事件监测工作指南.pdf | 32 页 | pdfplumber=32 | 表格=3 图片=5 VLM调用=5(成功6/失败0) 耗时=204.8s
+2026-05-26 10:59:43 | SUCCESS | 输出：医疗器械注册人开展不良事件监测工作指南.pdf -> 医疗器械注册人开展不良事件监测工作指南.md (26773 chars, 204.9s)
+2026-05-26 10:59:43 | INFO    | ------------------------------------------------------------
+2026-05-26 10:59:43 | INFO    | [10/16] 处理：医疗器械注册人开展产品不良事件风险评价指导原则.pdf  (.pdf)
+2026-05-26 10:59:43 | INFO    | [PDF] 开始 医疗器械注册人开展产品不良事件风险评价指导原则.pdf | 共 10 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 10:59:43 | INFO    | [PDF] 医疗器械注册人开展产品不良事件风险评价指导原则.pdf p1/10 -> pdfplumber | chars=468 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:43 | INFO    | [PDF] 医疗器械注册人开展产品不良事件风险评价指导原则.pdf p2/10 -> pdfplumber | chars=530 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:43 | INFO    | [PDF] 医疗器械注册人开展产品不良事件风险评价指导原则.pdf p3/10 -> pdfplumber | chars=577 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:43 | INFO    | [PDF] 医疗器械注册人开展产品不良事件风险评价指导原则.pdf p4/10 -> pdfplumber | chars=574 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:43 | INFO    | [PDF] 医疗器械注册人开展产品不良事件风险评价指导原则.pdf p5/10 -> pdfplumber | chars=512 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:44 | INFO    | [PDF] 医疗器械注册人开展产品不良事件风险评价指导原则.pdf p6/10 -> pdfplumber | chars=526 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:44 | INFO    | [PDF] 医疗器械注册人开展产品不良事件风险评价指导原则.pdf p7/10 -> pdfplumber | chars=453 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:44 | INFO    | [PDF] 医疗器械注册人开展产品不良事件风险评价指导原则.pdf p8/10 -> pdfplumber | chars=98 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:44 | INFO    | [PDF] 医疗器械注册人开展产品不良事件风险评价指导原则.pdf p9/10 -> pdfplumber | chars=309 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:44 | INFO    | [PDF] 医疗器械注册人开展产品不良事件风险评价指导原则.pdf p10/10 -> pdfplumber | chars=7 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:44 | SUCCESS | [PDF] 完成 医疗器械注册人开展产品不良事件风险评价指导原则.pdf | 10 页 | pdfplumber=10 | 表格=0 图片=0 VLM调用=0(成功0/失败0) 耗时=0.8s
+2026-05-26 10:59:44 | SUCCESS | 输出：医疗器械注册人开展产品不良事件风险评价指导原则.pdf -> 医疗器械注册人开展产品不良事件风险评价指导原则.md (4647 chars, 0.9s)
+2026-05-26 10:59:44 | INFO    | ------------------------------------------------------------
+2026-05-26 10:59:44 | INFO    | [11/16] 处理：医疗器械生产监督管理办法.pdf  (.pdf)
+2026-05-26 10:59:44 | INFO    | [PDF] 开始 医疗器械生产监督管理办法.pdf | 共 29 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 10:59:51 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p1_cand1.png -> 'no'
+2026-05-26 10:59:51 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,686)
+2026-05-26 10:59:51 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p1/29 -> pdfplumber | chars=352 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:55 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p2_cand1.png -> 'no'
+2026-05-26 10:59:55 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:59:55 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p2/29 -> pdfplumber | chars=496 tables=0 images=0 vlm_calls=0
+2026-05-26 10:59:59 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p3_cand1.png -> 'no'
+2026-05-26 10:59:59 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 10:59:59 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p3/29 -> pdfplumber | chars=403 tables=0 images=0 vlm_calls=0
+2026-05-26 11:00:05 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p4_cand1.png -> 'no'
+2026-05-26 11:00:05 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:00:05 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p4/29 -> pdfplumber | chars=389 tables=0 images=0 vlm_calls=0
+2026-05-26 11:00:09 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p5_cand1.png -> 'no'
+2026-05-26 11:00:09 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:00:09 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p5/29 -> pdfplumber | chars=474 tables=0 images=0 vlm_calls=0
+2026-05-26 11:00:14 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p6_cand1.png -> 'no'
+2026-05-26 11:00:14 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:00:14 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p6/29 -> pdfplumber | chars=518 tables=0 images=0 vlm_calls=0
+2026-05-26 11:00:17 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p7_cand1.png -> 'no'
+2026-05-26 11:00:17 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:00:17 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p7/29 -> pdfplumber | chars=488 tables=0 images=0 vlm_calls=0
+2026-05-26 11:00:23 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p8_cand1.png -> 'no'
+2026-05-26 11:00:23 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:00:23 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p8/29 -> pdfplumber | chars=521 tables=0 images=0 vlm_calls=0
+2026-05-26 11:00:28 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p9_cand1.png -> 'no'
+2026-05-26 11:00:28 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:00:28 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p9/29 -> pdfplumber | chars=454 tables=0 images=0 vlm_calls=0
+2026-05-26 11:00:32 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p10_cand1.png -> 'no'
+2026-05-26 11:00:32 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:00:32 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p10/29 -> pdfplumber | chars=455 tables=0 images=0 vlm_calls=0
+2026-05-26 11:00:38 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p11_cand1.png -> 'no'
+2026-05-26 11:00:38 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:00:38 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p11/29 -> pdfplumber | chars=503 tables=0 images=0 vlm_calls=0
+2026-05-26 11:00:43 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p12_cand1.png -> 'no'
+2026-05-26 11:00:43 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:00:43 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p12/29 -> pdfplumber | chars=469 tables=0 images=0 vlm_calls=0
+2026-05-26 11:00:49 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p13_cand1.png -> 'no'
+2026-05-26 11:00:49 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:00:49 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p13/29 -> pdfplumber | chars=503 tables=0 images=0 vlm_calls=0
+2026-05-26 11:00:53 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p14_cand1.png -> 'no'
+2026-05-26 11:00:53 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:00:53 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p14/29 -> pdfplumber | chars=524 tables=0 images=0 vlm_calls=0
+2026-05-26 11:00:57 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p15_cand1.png -> 'no'
+2026-05-26 11:00:57 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:00:57 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p15/29 -> pdfplumber | chars=468 tables=0 images=0 vlm_calls=0
+2026-05-26 11:01:02 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p16_cand1.png -> 'no'
+2026-05-26 11:01:02 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:01:02 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p16/29 -> pdfplumber | chars=428 tables=0 images=0 vlm_calls=0
+2026-05-26 11:01:06 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p17_cand1.png -> 'no'
+2026-05-26 11:01:06 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:01:06 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p17/29 -> pdfplumber | chars=464 tables=0 images=0 vlm_calls=0
+2026-05-26 11:01:11 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p18_cand1.png -> 'no'
+2026-05-26 11:01:11 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:01:11 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p18/29 -> pdfplumber | chars=399 tables=0 images=0 vlm_calls=0
+2026-05-26 11:01:16 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p19_cand1.png -> 'no'
+2026-05-26 11:01:16 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:01:16 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p19/29 -> pdfplumber | chars=351 tables=0 images=0 vlm_calls=0
+2026-05-26 11:01:21 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p20_cand1.png -> 'no'
+2026-05-26 11:01:21 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,634)
+2026-05-26 11:01:21 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p20/29 -> pdfplumber | chars=355 tables=0 images=0 vlm_calls=0
+2026-05-26 11:01:27 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p21_cand1.png -> 'no'
+2026-05-26 11:01:27 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,634)
+2026-05-26 11:01:27 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p21/29 -> pdfplumber | chars=439 tables=0 images=0 vlm_calls=0
+2026-05-26 11:01:31 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p22_cand1.png -> 'no'
+2026-05-26 11:01:31 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:01:31 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p22/29 -> pdfplumber | chars=480 tables=0 images=0 vlm_calls=0
+2026-05-26 11:01:35 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p23_cand1.png -> 'no'
+2026-05-26 11:01:35 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:01:35 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p23/29 -> pdfplumber | chars=517 tables=0 images=0 vlm_calls=0
+2026-05-26 11:01:39 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p24_cand1.png -> 'no'
+2026-05-26 11:01:39 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:01:39 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p24/29 -> pdfplumber | chars=500 tables=0 images=0 vlm_calls=0
+2026-05-26 11:01:44 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p25_cand1.png -> 'no'
+2026-05-26 11:01:44 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:01:44 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p25/29 -> pdfplumber | chars=454 tables=0 images=0 vlm_calls=0
+2026-05-26 11:01:50 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p26_cand1.png -> 'no'
+2026-05-26 11:01:50 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:01:50 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p26/29 -> pdfplumber | chars=413 tables=0 images=0 vlm_calls=0
+2026-05-26 11:01:56 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p27_cand1.png -> 'no'
+2026-05-26 11:01:56 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:01:56 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p27/29 -> pdfplumber | chars=439 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:01 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p28_cand1.png -> 'no'
+2026-05-26 11:02:01 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:02:01 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p28/29 -> pdfplumber | chars=455 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:05 | DEBUG   | [VLM] is_table 医疗器械生产监督管理办法_p29_cand1.png -> 'no'
+2026-05-26 11:02:05 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,256)
+2026-05-26 11:02:05 | INFO    | [PDF] 医疗器械生产监督管理办法.pdf p29/29 -> pdfplumber | chars=129 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:05 | SUCCESS | [PDF] 完成 医疗器械生产监督管理办法.pdf | 29 页 | pdfplumber=29 | 表格=0 图片=0 VLM调用=0(成功29/失败0) 耗时=141.4s
+2026-05-26 11:02:05 | SUCCESS | 输出：医疗器械生产监督管理办法.pdf -> 医疗器械生产监督管理办法.md (14407 chars, 141.5s)
+2026-05-26 11:02:05 | INFO    | ------------------------------------------------------------
+2026-05-26 11:02:05 | INFO    | [12/16] 处理：医疗器械监督管理条例.pdf  (.pdf)
+2026-05-26 11:02:05 | INFO    | [PDF] 开始 医疗器械监督管理条例.pdf | 共 20 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 11:02:05 | INFO    | [PDF] 医疗器械监督管理条例.pdf p1/20 -> pdfplumber | chars=773 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:06 | INFO    | [PDF] 医疗器械监督管理条例.pdf p2/20 -> pdfplumber | chars=969 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:06 | INFO    | [PDF] 医疗器械监督管理条例.pdf p3/20 -> pdfplumber | chars=1085 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:06 | INFO    | [PDF] 医疗器械监督管理条例.pdf p4/20 -> pdfplumber | chars=1069 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:06 | INFO    | [PDF] 医疗器械监督管理条例.pdf p5/20 -> pdfplumber | chars=1191 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:07 | INFO    | [PDF] 医疗器械监督管理条例.pdf p6/20 -> pdfplumber | chars=1046 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:07 | INFO    | [PDF] 医疗器械监督管理条例.pdf p7/20 -> pdfplumber | chars=976 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:07 | INFO    | [PDF] 医疗器械监督管理条例.pdf p8/20 -> pdfplumber | chars=1119 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:07 | INFO    | [PDF] 医疗器械监督管理条例.pdf p9/20 -> pdfplumber | chars=1150 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:07 | INFO    | [PDF] 医疗器械监督管理条例.pdf p10/20 -> pdfplumber | chars=1030 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:08 | INFO    | [PDF] 医疗器械监督管理条例.pdf p11/20 -> pdfplumber | chars=1118 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:08 | INFO    | [PDF] 医疗器械监督管理条例.pdf p12/20 -> pdfplumber | chars=1068 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:08 | INFO    | [PDF] 医疗器械监督管理条例.pdf p13/20 -> pdfplumber | chars=1082 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:08 | INFO    | [PDF] 医疗器械监督管理条例.pdf p14/20 -> pdfplumber | chars=1165 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:08 | INFO    | [PDF] 医疗器械监督管理条例.pdf p15/20 -> pdfplumber | chars=1428 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:09 | INFO    | [PDF] 医疗器械监督管理条例.pdf p16/20 -> pdfplumber | chars=1262 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:09 | INFO    | [PDF] 医疗器械监督管理条例.pdf p17/20 -> pdfplumber | chars=1261 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:09 | INFO    | [PDF] 医疗器械监督管理条例.pdf p18/20 -> pdfplumber | chars=1355 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:09 | INFO    | [PDF] 医疗器械监督管理条例.pdf p19/20 -> pdfplumber | chars=1003 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:09 | INFO    | [PDF] 医疗器械监督管理条例.pdf p20/20 -> pdfplumber | chars=508 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:09 | SUCCESS | [PDF] 完成 医疗器械监督管理条例.pdf | 20 页 | pdfplumber=20 | 表格=0 图片=0 VLM调用=0(成功0/失败0) 耗时=4.2s
+2026-05-26 11:02:09 | SUCCESS | 输出：医疗器械监督管理条例.pdf -> 医疗器械监督管理条例.md (23330 chars, 4.2s)
+2026-05-26 11:02:09 | INFO    | ------------------------------------------------------------
+2026-05-26 11:02:09 | INFO    | [13/16] 处理：医疗器械经营监督管理办法.pdf  (.pdf)
+2026-05-26 11:02:10 | INFO    | [PDF] 开始 医疗器械经营监督管理办法.pdf | 共 22 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 11:02:15 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p1_cand1.png -> 'no'
+2026-05-26 11:02:15 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,654)
+2026-05-26 11:02:15 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p1/22 -> pdfplumber | chars=343 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:20 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p2_cand1.png -> 'no'
+2026-05-26 11:02:20 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:02:20 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p2/22 -> pdfplumber | chars=441 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:25 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p3_cand1.png -> 'no'
+2026-05-26 11:02:25 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:02:25 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p3/22 -> pdfplumber | chars=413 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:29 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p4_cand1.png -> 'no'
+2026-05-26 11:02:29 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:02:29 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p4/22 -> pdfplumber | chars=398 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:33 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p5_cand1.png -> 'no'
+2026-05-26 11:02:33 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:02:33 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p5/22 -> pdfplumber | chars=489 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:37 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p6_cand1.png -> 'no'
+2026-05-26 11:02:37 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:02:37 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p6/22 -> pdfplumber | chars=515 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:41 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p7_cand1.png -> 'no'
+2026-05-26 11:02:41 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:02:41 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p7/22 -> pdfplumber | chars=455 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:46 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p8_cand1.png -> 'no'
+2026-05-26 11:02:46 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:02:46 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p8/22 -> pdfplumber | chars=452 tables=0 images=0 vlm_calls=0
+2026-05-26 11:02:52 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p9_cand1.png -> 'no'
+2026-05-26 11:02:52 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:02:52 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p9/22 -> pdfplumber | chars=505 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:00 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p10_cand1.png -> 'no'
+2026-05-26 11:03:00 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:03:00 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p10/22 -> pdfplumber | chars=406 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:04 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p11_cand1.png -> 'no'
+2026-05-26 11:03:04 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:03:04 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p11/22 -> pdfplumber | chars=419 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:08 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p12_cand1.png -> 'no'
+2026-05-26 11:03:08 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,634)
+2026-05-26 11:03:08 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p12/22 -> pdfplumber | chars=453 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:12 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p13_cand1.png -> 'no'
+2026-05-26 11:03:12 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,634)
+2026-05-26 11:03:12 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p13/22 -> pdfplumber | chars=428 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:16 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p14_cand1.png -> 'no'
+2026-05-26 11:03:16 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:03:16 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p14/22 -> pdfplumber | chars=474 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:21 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p15_cand1.png -> 'no'
+2026-05-26 11:03:21 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:03:21 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p15/22 -> pdfplumber | chars=424 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:26 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p16_cand1.png -> 'no'
+2026-05-26 11:03:26 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:03:26 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p16/22 -> pdfplumber | chars=476 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:30 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p17_cand1.png -> 'no'
+2026-05-26 11:03:30 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:03:30 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p17/22 -> pdfplumber | chars=445 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:36 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p18_cand1.png -> 'no'
+2026-05-26 11:03:36 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:03:36 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p18/22 -> pdfplumber | chars=461 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:40 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p19_cand1.png -> 'no'
+2026-05-26 11:03:40 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:03:40 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p19/22 -> pdfplumber | chars=497 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:46 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p20_cand1.png -> 'no'
+2026-05-26 11:03:46 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,697)
+2026-05-26 11:03:46 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p20/22 -> pdfplumber | chars=429 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:50 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p21_cand1.png -> 'no'
+2026-05-26 11:03:50 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,665)
+2026-05-26 11:03:50 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p21/22 -> pdfplumber | chars=413 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:55 | DEBUG   | [VLM] is_table 医疗器械经营监督管理办法_p22_cand1.png -> 'no'
+2026-05-26 11:03:55 | DEBUG   | [Table] 丢弃 mode=strict reason=cols<2 vlm=False bbox=(79,98,522,319)
+2026-05-26 11:03:55 | INFO    | [PDF] 医疗器械经营监督管理办法.pdf p22/22 -> pdfplumber | chars=196 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:55 | SUCCESS | [PDF] 完成 医疗器械经营监督管理办法.pdf | 22 页 | pdfplumber=22 | 表格=0 图片=0 VLM调用=0(成功22/失败0) 耗时=105.6s
+2026-05-26 11:03:55 | SUCCESS | 输出：医疗器械经营监督管理办法.pdf -> 医疗器械经营监督管理办法.md (10777 chars, 105.7s)
+2026-05-26 11:03:55 | INFO    | ------------------------------------------------------------
+2026-05-26 11:03:55 | INFO    | [14/16] 处理：医疗器械经营质量管理规范.pdf  (.pdf)
+2026-05-26 11:03:55 | INFO    | [PDF] 开始 医疗器械经营质量管理规范.pdf | 共 34 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 11:03:56 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p1/34 -> pdfplumber | chars=433 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:56 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p2/34 -> pdfplumber | chars=507 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:56 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p3/34 -> pdfplumber | chars=556 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:56 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p4/34 -> pdfplumber | chars=525 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:56 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p5/34 -> pdfplumber | chars=413 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:56 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p6/34 -> pdfplumber | chars=426 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:57 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p7/34 -> pdfplumber | chars=472 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:57 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p8/34 -> pdfplumber | chars=493 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:57 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p9/34 -> pdfplumber | chars=500 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:57 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p10/34 -> pdfplumber | chars=564 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:58 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p11/34 -> pdfplumber | chars=568 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:58 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p12/34 -> pdfplumber | chars=468 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:58 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p13/34 -> pdfplumber | chars=457 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:58 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p14/34 -> pdfplumber | chars=527 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:58 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p15/34 -> pdfplumber | chars=489 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:59 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p16/34 -> pdfplumber | chars=514 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:59 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p17/34 -> pdfplumber | chars=534 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:59 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p18/34 -> pdfplumber | chars=488 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:59 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p19/34 -> pdfplumber | chars=480 tables=0 images=0 vlm_calls=0
+2026-05-26 11:03:59 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p20/34 -> pdfplumber | chars=606 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:00 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p21/34 -> pdfplumber | chars=538 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:00 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p22/34 -> pdfplumber | chars=544 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:00 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p23/34 -> pdfplumber | chars=445 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:00 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p24/34 -> pdfplumber | chars=509 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:00 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p25/34 -> pdfplumber | chars=509 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:01 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p26/34 -> pdfplumber | chars=533 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:01 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p27/34 -> pdfplumber | chars=524 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:01 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p28/34 -> pdfplumber | chars=499 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:01 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p29/34 -> pdfplumber | chars=472 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:01 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p30/34 -> pdfplumber | chars=535 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:02 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p31/34 -> pdfplumber | chars=527 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:02 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p32/34 -> pdfplumber | chars=549 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:02 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p33/34 -> pdfplumber | chars=480 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:02 | INFO    | [PDF] 医疗器械经营质量管理规范.pdf p34/34 -> pdfplumber | chars=299 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:02 | SUCCESS | [PDF] 完成 医疗器械经营质量管理规范.pdf | 34 页 | pdfplumber=34 | 表格=0 图片=0 VLM调用=0(成功0/失败0) 耗时=6.8s
+2026-05-26 11:04:02 | SUCCESS | 输出：医疗器械经营质量管理规范.pdf -> 医疗器械经营质量管理规范.md (18967 chars, 6.9s)
+2026-05-26 11:04:02 | INFO    | ------------------------------------------------------------
+2026-05-26 11:04:02 | INFO    | [15/16] 处理：真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf  (.pdf)
+2026-05-26 11:04:02 | INFO    | [PDF] 开始 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf | 共 13 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 11:04:02 | INFO    | [PDF] 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf p1/13 -> pdfplumber | chars=471 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:03 | INFO    | [PDF] 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf p2/13 -> pdfplumber | chars=571 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:03 | INFO    | [PDF] 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf p3/13 -> pdfplumber | chars=549 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:03 | INFO    | [PDF] 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf p4/13 -> pdfplumber | chars=481 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:03 | INFO    | [PDF] 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf p5/13 -> pdfplumber | chars=542 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:03 | INFO    | [PDF] 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf p6/13 -> pdfplumber | chars=560 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:04 | INFO    | [PDF] 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf p7/13 -> pdfplumber | chars=614 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:04 | INFO    | [PDF] 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf p8/13 -> pdfplumber | chars=606 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:04 | INFO    | [PDF] 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf p9/13 -> pdfplumber | chars=547 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:04 | INFO    | [PDF] 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf p10/13 -> pdfplumber | chars=200 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:04 | INFO    | [PDF] 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf p11/13 -> pdfplumber | chars=546 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:04 | INFO    | [PDF] 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf p12/13 -> pdfplumber | chars=568 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:05 | INFO    | [PDF] 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf p13/13 -> pdfplumber | chars=605 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:05 | SUCCESS | [PDF] 完成 真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf | 13 页 | pdfplumber=13 | 表格=0 图片=0 VLM调用=0(成功0/失败0) 耗时=2.5s
+2026-05-26 11:04:05 | SUCCESS | 输出：真实世界数据用于医疗器械临床评价技术指导原则（试行）.pdf -> 真实世界数据用于医疗器械临床评价技术指导原则（试行）.md (7407 chars, 2.6s)
+2026-05-26 11:04:05 | INFO    | ------------------------------------------------------------
+2026-05-26 11:04:05 | INFO    | [16/16] 处理：药物警戒质量管理规范.pdf  (.pdf)
+2026-05-26 11:04:05 | INFO    | [PDF] 开始 药物警戒质量管理规范.pdf | 共 29 页 | parser=pdfplumber-only | VLM=on(qwen3.5-flash)
+2026-05-26 11:04:05 | INFO    | [PDF] 药物警戒质量管理规范.pdf p1/29 -> pdfplumber | chars=437 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:05 | INFO    | [PDF] 药物警戒质量管理规范.pdf p2/29 -> pdfplumber | chars=519 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:05 | INFO    | [PDF] 药物警戒质量管理规范.pdf p3/29 -> pdfplumber | chars=495 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:06 | INFO    | [PDF] 药物警戒质量管理规范.pdf p4/29 -> pdfplumber | chars=488 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:06 | INFO    | [PDF] 药物警戒质量管理规范.pdf p5/29 -> pdfplumber | chars=558 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:06 | INFO    | [PDF] 药物警戒质量管理规范.pdf p6/29 -> pdfplumber | chars=554 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:06 | INFO    | [PDF] 药物警戒质量管理规范.pdf p7/29 -> pdfplumber | chars=523 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:07 | INFO    | [PDF] 药物警戒质量管理规范.pdf p8/29 -> pdfplumber | chars=486 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:07 | INFO    | [PDF] 药物警戒质量管理规范.pdf p9/29 -> pdfplumber | chars=549 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:07 | INFO    | [PDF] 药物警戒质量管理规范.pdf p10/29 -> pdfplumber | chars=501 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:07 | INFO    | [PDF] 药物警戒质量管理规范.pdf p11/29 -> pdfplumber | chars=576 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:07 | INFO    | [PDF] 药物警戒质量管理规范.pdf p12/29 -> pdfplumber | chars=505 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:07 | INFO    | [PDF] 药物警戒质量管理规范.pdf p13/29 -> pdfplumber | chars=524 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:07 | INFO    | [PDF] 药物警戒质量管理规范.pdf p14/29 -> pdfplumber | chars=586 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:08 | INFO    | [PDF] 药物警戒质量管理规范.pdf p15/29 -> pdfplumber | chars=558 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:08 | INFO    | [PDF] 药物警戒质量管理规范.pdf p16/29 -> pdfplumber | chars=561 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:08 | INFO    | [PDF] 药物警戒质量管理规范.pdf p17/29 -> pdfplumber | chars=557 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:08 | INFO    | [PDF] 药物警戒质量管理规范.pdf p18/29 -> pdfplumber | chars=529 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:08 | INFO    | [PDF] 药物警戒质量管理规范.pdf p19/29 -> pdfplumber | chars=558 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:08 | INFO    | [PDF] 药物警戒质量管理规范.pdf p20/29 -> pdfplumber | chars=535 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:09 | INFO    | [PDF] 药物警戒质量管理规范.pdf p21/29 -> pdfplumber | chars=481 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:09 | INFO    | [PDF] 药物警戒质量管理规范.pdf p22/29 -> pdfplumber | chars=458 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:09 | INFO    | [PDF] 药物警戒质量管理规范.pdf p23/29 -> pdfplumber | chars=536 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:09 | INFO    | [PDF] 药物警戒质量管理规范.pdf p24/29 -> pdfplumber | chars=502 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:09 | INFO    | [PDF] 药物警戒质量管理规范.pdf p25/29 -> pdfplumber | chars=551 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:09 | INFO    | [PDF] 药物警戒质量管理规范.pdf p26/29 -> pdfplumber | chars=519 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:09 | INFO    | [PDF] 药物警戒质量管理规范.pdf p27/29 -> pdfplumber | chars=578 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:10 | INFO    | [PDF] 药物警戒质量管理规范.pdf p28/29 -> pdfplumber | chars=488 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:10 | INFO    | [PDF] 药物警戒质量管理规范.pdf p29/29 -> pdfplumber | chars=232 tables=0 images=0 vlm_calls=0
+2026-05-26 11:04:10 | SUCCESS | [PDF] 完成 药物警戒质量管理规范.pdf | 29 页 | pdfplumber=29 | 表格=0 图片=0 VLM调用=0(成功0/失败0) 耗时=4.8s
+2026-05-26 11:04:10 | SUCCESS | 输出：药物警戒质量管理规范.pdf -> 药物警戒质量管理规范.md (16894 chars, 5.0s)
+2026-05-26 11:04:10 | INFO    | ============================================================
+2026-05-26 11:04:10 | SUCCESS | 全部完成 | 总耗时 1287.6s
+2026-05-26 11:04:10 | SUCCESS | 提取报告：F:\FelizAI\policy-llm-wiki\raw-0\_extract_report.md

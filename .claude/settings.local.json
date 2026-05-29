@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(Remove-Item scripts/_list_specs.py, scripts/extract_page_numbers.py, scripts/fill_index_todos.py -ErrorAction SilentlyContinue)",
+      "Bash(Remove-Item scripts/page_map.json -ErrorAction SilentlyContinue)",
+      "Bash(read d *)",
+      "Bash(rg \"TODO: 待LLM补写\" wiki/ -c --sort path)",
+      "Bash(awk -F: '{sum[$1]+=$2} END {for \\(k in sum\\) print sum[k], k}')",
+      "Bash(awk -F'[\\\\\\\\\\\\\\\\]' '{print $2}')",
+      "Bash(awk -F'/' '{print $2}')",
+      "Bash(tr '\\\\\\\\' '/')",
+      "Bash(Move-Item \"TODO-待LLM命名-1.md\" \"第二节内部审核与委托管理.md\")",
+      "Bash(Move-Item \"TODO-待LLM命名-1-index.md\" \"第二节内部审核与委托管理-index.md\")",
+      "PowerShell(Rename-Item *)",
+      "Bash(Select-String \"药物警戒|委托生产|不良事件监测工作指南|医疗器械管理法|经营质量管理|检查要点\")",
+      "Bash(Get-ChildItem -Path \"F:\\\\FelizAI\\\\policy-llm-wiki\\\\wiki\" -Directory)",
+      "Bash(Select-Object -ExpandProperty Name)",
+      "Bash(Sort-Object)",
+      "Bash(Get-ChildItem -Recurse \"F:\\\\FelizAI\\\\policy-llm-wiki\\\\wiki\\\\医疗器械监督管理条例\")",
+      "Bash(Select-Object FullName, Length)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(Get-ChildItem -Recurse -Name \"F:\\\\FelizAI\\\\policy-llm-wiki\\\\wiki\\\\医疗器械经营监督管理办法\")",
+      "Bash(Get-ChildItem -Path \"F:\\\\FelizAI\\\\policy-llm-wiki\\\\wiki\\\\医疗器械注册与备案管理办法\" -Filter \"*-index.md\")",
+      "Bash(Measure-Object)",
+      "Bash(Select-Object -ExpandProperty Count)",
+      "Bash(Get-ChildItem -Recurse \"F:\\\\FelizAI\\\\policy-llm-wiki\\\\wiki\\\\医疗器械经营监督管理办法\")",
+      "Bash(Get-ChildItem -Recurse -File \"F:\\\\FelizAI\\\\policy-llm-wiki\\\\wiki\\\\医疗器械注册人开展产品不良事件风险评价指导原则\")",
+      "Bash(Select-Object Name, FullName)",
+      "Bash(Get-ChildItem -Recurse -File \"F:\\\\FelizAI\\\\policy-llm-wiki\\\\wiki\\\\药物警戒质量管理规范\")",
+      "PowerShell(Get-ChildItem -Recurse -File \"F:\\\\FelizAI\\\\policy-llm-wiki\\\\wiki\\\\药物警戒质量管理规范\" | ForEach-Object { $_.FullName.Replace\\(\"F:\\\\FelizAI\\\\policy-llm-wiki\\\\wiki\\\\药物警戒质量管理规范\\\\\", \"\"\\) } | Sort-Object)",
+      "Bash(Get-ChildItem -Path \"F:\\\\FelizAI\\\\policy-llm-wiki\\\\wiki\\\\中华人民共和国医疗器械管理法\\(征询意见稿\\)\" -Filter \"*.md\")",
+      "Bash(Select-Object Name)",
+      "Bash(Sort-Object Name)",
+      "PowerShell(Join-Path *)"
+    ]
+  }
+}

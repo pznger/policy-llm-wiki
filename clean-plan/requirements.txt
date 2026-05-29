@@ -1,0 +1,5 @@
+# 清洗阶段额外依赖（其余复用 ocr-plan 的依赖）
+openai>=1.40.0
+loguru>=0.7.0
+tenacity>=8.2.0
+tqdm>=4.66.0
