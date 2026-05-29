@@ -186,7 +186,6 @@ python scripts/batch_split_wiki.py
 | [wiki-查询指导.md](./wiki-查询指导.md) | 查询流程、溯源表格答题 §6 |
 | [scripts/README.md](./scripts/README.md) | 脚本说明与行数抽查 |
 | [qa-test/README.md](./qa-test/README.md) | 测试集与评测流程 |
-| [docs/images/README.md](./docs/images/README.md) | 效果展示截图清单 |
 
 ---
 
